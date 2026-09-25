@@ -90,9 +90,7 @@ export default function Footer() {
                 Explorer
               </p>
               <ul className="space-y-2">
-                {NAV_LINKS.filter(
-                  (l) => l.href !== "/contact" && l.href !== "/equipe",
-                ).map((link) => (
+                {NAV_LINKS.filter((l) => l.href !== "/contact").map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}

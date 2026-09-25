@@ -287,18 +287,15 @@ export default function Header() {
                 <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/45">
                   Contact
                 </p>
-                <a
-                  href={`mailto:${CONTACT.emails[0]}`}
-                  className="block text-sm text-white transition-colors hover:text-[color:var(--accent)]"
-                >
-                  {CONTACT.emails[0]}
-                </a>
-                <a
-                  href={`mailto:${CONTACT.emails[1]}`}
-                  className="block text-sm text-white transition-colors hover:text-[color:var(--accent)]"
-                >
-                  {CONTACT.emails[1]}
-                </a>
+                {CONTACT.emails.map((email) => (
+                  <a
+                    key={email}
+                    href={`mailto:${email}`}
+                    className="block text-sm text-white transition-colors hover:text-[color:var(--accent)]"
+                  >
+                    {email}
+                  </a>
+                ))}
                 {CONTACT.phones.map((phone) => (
                   <a
                     key={phone.href}
