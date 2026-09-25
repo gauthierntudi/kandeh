@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 const STEPS_A = [
   {
     title: "1. Immersion & analyse",
-    lead: "Tout commence par l’écoute et la compréhension. Nous plongeons au cœur de la marque, de son univers et de ses enjeux :",
+    lead: "Tout commence par l’écoute et la compréhension. Je plonge au cœur de la marque, de son univers et de ses enjeux :",
     bullets: [
       "Analyse du marché, de la concurrence et des tendances",
       "Compréhension des objectifs, des cibles et des contraintes",
@@ -18,7 +18,7 @@ const STEPS_A = [
   },
   {
     title: "2. Conception créative",
-    lead: "Les idées prennent forme. À travers un processus collaboratif et itératif, nous construisons l’univers du projet :",
+    lead: "Les idées prennent forme. À travers un processus collaboratif et itératif, je construis l’univers du projet :",
     bullets: [
       "Recherche d’inspirations et moodboards",
       "Développement des concepts graphiques et narratifs",
@@ -33,7 +33,7 @@ const STEPS_B = [
   {
     title: "3. Production & design",
     lead: "La vision devient réalité.",
-    body: "Nous donnons vie aux concepts à travers des productions soignées :",
+    body: "Je donne vie aux concepts à travers des productions soignées :",
     bullets: [
       "Branding, identité visuelle, motion design, webdesign, contenus digitaux",
       "Tests, ajustements et optimisations",
@@ -44,7 +44,7 @@ const STEPS_B = [
   {
     title: "4. Déploiement & accompagnement",
     lead: "Créer, c’est bien. Diffuser efficacement, c’est mieux.",
-    body: "Nous accompagnons nos clients dans la mise en œuvre et l’exploitation des créations :",
+    body: "J'accompagne mes clients dans la mise en œuvre et l’exploitation des créations :",
     bullets: [
       "Déploiement print, digital et réseaux sociaux",
       "Suivi des performances et ajustements",
@@ -299,7 +299,7 @@ export default function MethodPage() {
           <div className="method-visual relative aspect-[913/1335] h-[min(78dvh,720px)] w-auto max-w-full">
             <Image
               src="/img/method.png"
-              alt="EK STUDIO — méthodologie"
+              alt="Herman Kande — méthodologie"
               fill
               priority
               className="object-contain object-bottom"
@@ -340,7 +340,7 @@ export default function MethodPage() {
             <div className="method-visual relative aspect-[913/1335] h-[min(48svh,400px)] w-auto max-w-[85%]">
               <Image
                 src="/img/method.png"
-                alt="EK STUDIO — méthodologie"
+                alt="Herman Kande — méthodologie"
                 fill
                 priority
                 className="object-contain object-bottom"

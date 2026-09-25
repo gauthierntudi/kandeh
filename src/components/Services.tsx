@@ -15,10 +15,10 @@ const SERVICE_ICONS = [
 ] as const;
 
 const SERVICE_LINES = [
-  ["L’identité visuelle", "La création de contenus"],
-  ["Conceptions graphiques", "La stratégie de communication"],
-  ["Le marketing digital", "La photographie"],
-  ["La vidéographie", "Live streaming"],
+  ["Identité visuelle", "Infographies"],
+  ["Affiches", "Brochures"],
+  ["Réseaux sociaux", "Campagnes"],
+  ["Montage vidéo", "Contenus numériques"],
 ] as const;
 
 export default function Services() {
@@ -173,7 +173,7 @@ export default function Services() {
       {/* Credentials — bottom left */}
       <div className="services-cred absolute bottom-10 left-6 z-20 hidden flex-col items-center gap-3 md:left-10 md:flex">
         <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase text-white/40 [writing-mode:vertical-rl]">
-          Credentials 2025
+          Expérience
         </span>
         <span aria-hidden className="text-white/35">
           ↓
@@ -192,8 +192,8 @@ export default function Services() {
 
       <div className="relative z-10 mx-auto flex h-full w-full max-w-7xl flex-col items-center justify-center px-6 py-20 text-center md:px-10 md:py-16">
         <p className="services-intro max-w-[42ch] text-[0.9375rem] leading-snug text-white/85 md:text-lg md:leading-snug">
-          EK STUDIO propose une large gamme de services en matière de
-          communication visuelle et de création de contenus.
+          J’accompagne des clients académiques, corporate et communautaires,
+          de l’affiche à la vidéo.
         </p>
 
         <ul className="mt-10 flex w-full max-w-[20rem] flex-wrap justify-center gap-x-5 gap-y-6 sm:max-w-none sm:gap-6 md:mt-14 md:gap-8 lg:gap-10">

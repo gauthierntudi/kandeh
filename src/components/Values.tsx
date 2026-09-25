@@ -7,18 +7,18 @@ import { gsap, useGSAP } from "@/lib/gsap";
 const VALUES = [
   {
     icon: "/img/icons/ICO_EK-04.png",
-    title: "Créativité",
-    body: "La créativité est notre moteur. Nous croyons aux idées qui dérangent, aux concepts qui surprennent et aux récits visuels qui laissent une empreinte. Chez EK STUDIO, chaque projet commence par une page blanche et une liberté totale d’imaginer. Ici, l’originalité n’est pas une option, c’est une exigence.",
+    title: "Branding",
+    body: "L’identité visuelle et les infographies rendent une marque lisible. Je construis des systèmes cohérents, de l’affiche au support digital, pour que chaque client soit reconnu.",
   },
   {
     icon: "/img/icons/ICO_EK-03.png",
-    title: "Innovation",
-    body: "Le design évolue. La technologie avance. Et nous avançons avec elle. Nous explorons constamment de nouveaux outils, formats et langages visuels pour créer des expériences modernes, pertinentes et durables. Innover, pour nous, c’est anticiper les usages, comprendre les mutations et proposer des solutions créatives adaptées aux marques d’aujourd’hui… et à celles de demain.",
+    title: "Vidéo",
+    body: "Le montage sert le message. Je réalise des vidéos promotionnelles et pédagogiques, claires et tenues, pour des campus, des campagnes et des communautés.",
   },
   {
     icon: "/img/icons/ICO_EK-01.png",
-    title: "Excellence",
-    body: "Chaque détail compte. Chaque livrable est traité comme une œuvre. De la réflexion stratégique à la finition graphique, nous repoussons les standards pour offrir des créations cohérentes, puissantes et mémorables. L’excellence chez EK STUDIO, c’est la rigueur, le sens du détail et la volonté constante de dépasser les attentes.",
+    title: "Digital",
+    body: "Adobe Creative Suite et la gestion de contenus numériques tiennent l’ensemble. Je mets à jour les visuels et l’identité en ligne pour qu’ils restent justes et cohérents.",
   },
 ] as const;
 
@@ -140,7 +140,7 @@ export default function Values() {
 
       <div className="values-cred absolute bottom-10 right-6 z-20 hidden flex-col items-center gap-3 md:right-10 md:flex">
         <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase text-white/40 [writing-mode:vertical-rl]">
-          Credentials 2025
+          Savoir-faire
         </span>
         <span aria-hidden className="text-white/35">
           ↓
@@ -149,7 +149,7 @@ export default function Values() {
 
       <div className="relative z-10 mx-auto flex h-full w-full max-w-7xl flex-col justify-center px-0 py-20 md:px-10 md:py-16">
         <h2 className="values-title max-w-[18ch] px-6 text-left font-display text-[clamp(1.55rem,4vw,2.75rem)] font-semibold leading-[1.1] tracking-[-0.03em] uppercase text-white md:px-0">
-          Les valeurs qui nous définissent
+          Les compétences qui me définissent
         </h2>
 
         <div
@@ -183,7 +183,7 @@ export default function Values() {
         <div
           className="values-dots mt-8 flex items-center justify-center gap-2 md:hidden"
           role="tablist"
-          aria-label="Valeurs"
+          aria-label="Compétences"
         >
           {VALUES.map((value, i) => (
             <button

@@ -6,12 +6,29 @@ import Link from "next/link";
 import { gsap, useGSAP } from "@/lib/gsap";
 import { CONTACT, NAV_LINKS, SOCIALS } from "@/data/site";
 
+const LOGO_WORDS = ["Herman", "Kande"] as const;
+const LOGO_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&*";
+
+function cipherFrame(target: string, progress: number, encode: boolean) {
+  return target
+    .split("")
+    .map((char, index) => {
+      const revealAt = (index + 0.35) / (target.length + 0.35);
+      const locked = encode ? progress < revealAt : progress >= revealAt;
+      if (locked) return char;
+      return LOGO_CHARS[Math.floor(Math.random() * LOGO_CHARS.length)]!;
+    })
+    .join("");
+}
+
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [onLight, setOnLight] = useState(false);
   const panelId = useId();
   const headerRef = useRef<HTMLElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
+  const logoRef = useRef<HTMLSpanElement>(null);
+  const logoTextRef = useRef<HTMLSpanElement>(null);
 
   useGSAP(
     () => {
@@ -22,6 +39,55 @@ export default function Header() {
       );
     },
     { scope: headerRef },
+  );
+
+  useGSAP(
+    () => {
+      const mm = gsap.matchMedia();
+
+      const text = logoTextRef.current;
+      if (!text) return;
+
+      mm.add("(prefers-reduced-motion: reduce)", () => {
+        text.textContent = "Kande";
+      });
+
+      mm.add("(prefers-reduced-motion: no-preference)", () => {
+        let wordIndex = 0;
+        const state = { progress: 0 };
+
+        const render = (encode: boolean) => {
+          text.textContent = cipherFrame(LOGO_WORDS[wordIndex]!, state.progress, encode);
+        };
+
+        const tl = gsap.timeline({ repeat: -1, delay: 0.15 });
+        tl.call(() => {
+          state.progress = 0;
+        })
+          .to(state, {
+            progress: 1,
+            duration: 0.9,
+            ease: "none",
+            onUpdate: () => render(false),
+          })
+          .to({}, { duration: 1.35 })
+          .call(() => {
+            state.progress = 0;
+          })
+          .to(state, {
+            progress: 1,
+            duration: 0.7,
+            ease: "none",
+            onUpdate: () => render(true),
+          })
+          .call(() => {
+            wordIndex = (wordIndex + 1) % LOGO_WORDS.length;
+          });
+      });
+
+      return () => mm.revert();
+    },
+    { scope: logoRef },
   );
 
   useGSAP(
@@ -115,18 +181,18 @@ export default function Header() {
       >
         <Link
           href="/"
-          className="relative block w-[9.5rem] shrink-0 md:w-[11.5rem]"
-          aria-label="EK studio — accueil"
+          className="relative shrink-0 font-display text-[1.65rem] font-semibold leading-none tracking-[-0.04em] text-current md:text-[1.9rem]"
+          aria-label="Herman Kande — accueil"
           onClick={() => setOpen(false)}
         >
-          <Image
-            src={onLight && !open ? "/img/logo-ek.png" : "/img/logo-ek-white.png"}
-            alt="EK studio"
-            width={2437}
-            height={684}
-            priority
-            className="h-auto w-full object-left object-contain"
-          />
+          <span ref={logoRef} className="relative inline-grid">
+            <span className="invisible col-start-1 row-start-1" aria-hidden>
+              Herman
+            </span>
+            <span ref={logoTextRef} className="col-start-1 row-start-1" aria-hidden>
+              Herman
+            </span>
+          </span>
         </Link>
 
         <button
@@ -279,8 +345,8 @@ export default function Header() {
             </div>
 
             <div className="menu-footer-item mt-5 flex flex-col gap-1 border-t border-white/10 pt-4 text-[0.65rem] tracking-[0.08em] text-white/35 sm:flex-row sm:items-center sm:justify-between">
-              <span>© {new Date().getFullYear()} EK studio</span>
-              <span>Agence conseil &amp; communication</span>
+              <span>© {new Date().getFullYear()} Herman Kande</span>
+              <span>Designer graphique &amp; support IT</span>
             </div>
           </footer>
         </div>

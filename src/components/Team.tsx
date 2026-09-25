@@ -24,7 +24,7 @@ const TEAM: Member[] = [
     profile: [
       "Créateur dans l’âme, KABUNDI Espérant évolue depuis plus de 16 ans dans l’univers de l’image, du design et du storytelling visuel. Là où certains voient des formes et des pixels, lui perçoit des émotions, des récits et des opportunités de connexion entre les marques et leur public.",
       "Graphiste de formation, directeur artistique par passion, il développe une approche où l’esthétique ne se dissocie jamais de la stratégie. Chaque création est pensée comme un langage, chaque visuel comme un message porteur de sens.",
-      "En fondant EK STUDIO en 2019 à Kinshasa, il pose une vision claire : créer un espace où la créativité rencontre l’exigence, où l’innovation sert l’impact, et où chaque projet devient une expérience singulière. Sous sa direction, le studio accompagne marques, institutions et entreprises dans la conception de supports de communication puissants, cohérents et mémorables.",
+      "En fondant Herman Kande en 2019 à Kinshasa, il pose une vision claire : créer un espace où la créativité rencontre l’exigence, où l’innovation sert l’impact, et où chaque projet devient une expérience singulière. Sous sa direction, le studio accompagne marques, institutions et entreprises dans la conception de supports de communication puissants, cohérents et mémorables.",
       "Donner une identité forte aux idées, sans jamais trahir l’ADN des marques.",
     ],
   },
@@ -525,7 +525,7 @@ export default function Team() {
           <div className="team-crew relative h-[min(48dvh,420px)] w-[138%] max-w-none shrink-0 md:aspect-[1552/812] md:h-auto md:w-full md:max-w-[min(100%,1500px)]">
             <Image
               src="/img/crew.png"
-              alt="EK STUDIO — Best crew"
+              alt="Herman Kande — Best crew"
               fill
               priority
               className="object-contain object-bottom"

@@ -3,7 +3,7 @@
 :root {
   --background: #050505;
   --foreground: #f2f2f0;
-  /* Vert signature des assets EKSTUDIO */
+  /* Vert signature des assets Herman Kande */
   --accent: #50bf2c;
 }
 
@@ -13,6 +13,10 @@
   --color-accent: var(--accent);
   --font-sans: var(--font-body);
   --font-display: var(--font-syne);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

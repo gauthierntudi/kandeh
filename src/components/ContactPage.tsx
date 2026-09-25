@@ -100,7 +100,7 @@ export default function ContactPage() {
             <span className="text-black">projet</span>
           </h1>
           <p className="contact-lead mt-6 max-w-lg text-base leading-snug text-white/65 md:mt-8 md:text-lg">
-            {CONTACT.tagline} Écrivez-nous ou passez au studio — Kinshasa-Gombe.
+            {CONTACT.tagline} Écrivez-moi ou passez au studio — Kinshasa-Gombe.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-14">

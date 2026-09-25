@@ -14,7 +14,7 @@ const syne = Syne({
 });
 
 const siteUrl = "https://ekstudio-cd.com";
-const siteTitle = "EK STUDIO";
+const siteTitle = "Herman Kande";
 const siteDescription =
   "Là où l’image devient une expérience. Création digitale & motion à Kinshasa.";
 
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
   },
   description: siteDescription,
   applicationName: siteTitle,
-  authors: [{ name: "EK STUDIO", url: siteUrl }],
-  creator: "EK STUDIO",
-  publisher: "EK STUDIO",
+  authors: [{ name: "Herman Kande", url: siteUrl }],
+  creator: "Herman Kande",
+  publisher: "Herman Kande",
   keywords: [
-    "EK STUDIO",
+    "Herman Kande",
     "Kinshasa",
     "communication visuelle",
     "création de contenus",

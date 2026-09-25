@@ -111,12 +111,6 @@ export default function ProjectsPage({ projects }: { projects: Project[] }) {
             Work
           </Link>
           <Link
-            href="/equipe"
-            className="rounded-full px-4 py-2 text-[0.65rem] tracking-[0.16em] uppercase text-white/55 transition-colors hover:text-white"
-          >
-            Équipe
-          </Link>
-          <Link
             href="/contact"
             className="rounded-full px-4 py-2 text-[0.65rem] tracking-[0.16em] uppercase text-white/55 transition-colors hover:text-white"
           >

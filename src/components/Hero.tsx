@@ -4,18 +4,18 @@ import { useRef } from "react";
 import Image from "next/image";
 import { gsap, useGSAP } from "@/lib/gsap";
 
-const BEATS = ["Elle parle.", "Elle touche.", "Elle agit."];
+const BEATS = ["Identité.", "Vidéo.", "Adobe."];
 
 const SLIDES = [
   {
     bg: "/img/bg-green.png",
-    figure: "/img/bonhom-01.png",
-    alt: "EKSTUDIO — portrait 01",
+    figure: "/img/kandeh-01.png",
+    alt: "Herman Kande — portrait 01",
   },
   {
     bg: "/img/bg-orange.png",
-    figure: "/img/bonhom-02.png",
-    alt: "EKSTUDIO — portrait 02",
+    figure: "/img/kandeh-02.png",
+    alt: "Herman Kande — portrait 02",
   },
 ] as const;
 
@@ -181,14 +181,14 @@ export default function Hero() {
       <div className="relative z-10 mx-auto grid h-full w-full max-w-7xl grid-cols-1 items-end px-6 pt-24 md:grid-cols-12 md:items-center md:gap-x-8 md:px-10 md:pt-0 lg:gap-x-12">
         <div className="relative z-10 flex w-full flex-col items-start gap-7 pb-20 md:col-span-5 md:gap-9 md:pb-0 lg:col-span-5">
           <h1 className="w-full max-w-[16ch] font-display text-[clamp(1.85rem,4.2vw,3.5rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-            <span className="hero-title-line block">Là où l’image</span>
-            <span className="hero-title-line block">devient une</span>
-            <span className="hero-title-line block text-black">expérience</span>
+            <span className="hero-title-line block">Designer</span>
+            <span className="hero-title-line block">graphique,</span>
+            <span className="hero-title-line block text-black">spécialiste</span>
           </h1>
 
           <div className="w-full max-w-sm space-y-4">
             <p className="hero-lead text-base leading-relaxed text-white/90 md:text-lg">
-              Ici, l’image ne se contente pas d’être belle.
+              Du concept à la livraison, avec précision.
             </p>
             <p className="flex flex-wrap gap-x-3 gap-y-1 font-display text-lg font-medium tracking-tight text-white md:text-xl">
               {BEATS.map((beat) => (
@@ -232,7 +232,7 @@ export default function Hero() {
                 width={920}
                 height={1100}
                 priority
-                className="h-[min(52dvh,480px)] w-auto max-w-full object-contain object-bottom drop-shadow-[0_24px_60px_rgba(0,0,0,0.35)] md:h-[min(88dvh,900px)] md:max-w-[100%]"
+                className="h-[min(52dvh,480px)] w-auto max-w-full object-contain object-bottom grayscale drop-shadow-[0_24px_60px_rgba(0,0,0,0.35)] md:h-[min(88dvh,900px)] md:max-w-[100%]"
                 sizes="(max-width: 768px) 80vw, 55vw"
               />
             </div>

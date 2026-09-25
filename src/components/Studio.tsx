@@ -89,8 +89,8 @@ export default function Studio() {
       <div className="studio-visual pointer-events-none absolute inset-y-0 right-0 z-[1] hidden overflow-hidden md:flex md:w-[58%] md:items-center md:justify-end lg:w-[55%]">
         <div className="studio-visual-motion relative h-full w-full will-change-transform">
           <Image
-            src="/img/histo-01.png"
-            alt="EK STUDIO — laboratoire créatif"
+            src="/img/histo-03.png"
+            alt="Herman Kande"
             fill
             priority
             className="object-contain object-right"
@@ -104,8 +104,8 @@ export default function Studio() {
         <div className="studio-visual relative z-[1] flex min-h-0 flex-[0.95] items-start justify-end overflow-hidden pr-0 pl-4 pt-0 md:hidden">
           <div className="studio-visual-motion relative h-full w-full max-w-sm will-change-transform">
             <Image
-              src="/img/histo-01.png"
-              alt="EK STUDIO — laboratoire créatif"
+              src="/img/histo-03.png"
+              alt="Herman Kande"
               fill
               priority
               className="object-contain object-right-top"
@@ -125,7 +125,7 @@ export default function Studio() {
         {/* Credentials — desktop only */}
         <div className="studio-cred absolute bottom-10 left-6 z-20 hidden flex-col items-center gap-3 md:left-10 md:flex">
           <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase text-black/45 [writing-mode:vertical-rl]">
-            Credentials 2025
+            Depuis 2016
           </span>
           <span aria-hidden className="text-black/40">
             ↓
@@ -136,26 +136,23 @@ export default function Studio() {
         <div className="relative z-10 flex flex-[1.05] flex-col justify-end px-6 pb-8 pt-2 md:absolute md:inset-y-0 md:left-0 md:flex md:w-[48%] md:justify-center md:px-10 md:pb-0 md:pt-0 lg:w-[45%] lg:pl-20">
           <div className="flex w-full max-w-md flex-col items-start md:max-w-none">
             <p className="studio-cred mb-3 text-[0.65rem] font-medium tracking-[0.22em] uppercase text-black/40 md:hidden">
-              Credentials 2025
+              Depuis 2016
             </p>
 
             <h2 className="studio-title max-w-[16ch] font-display text-[clamp(1.45rem,6.2vw,2.85rem)] font-semibold leading-[1.08] tracking-[-0.03em] uppercase text-black md:max-w-[14ch]">
-              Un laboratoire créatif au cœur de{" "}
-              <span className="text-[color:var(--accent)]">Kinshasa</span>
+              Un parcours créatif de Kinshasa à{" "}
+              <span className="text-[color:var(--accent)]">Noblesville</span>
             </h2>
 
             <div className="mt-4 space-y-3 md:mt-8 md:space-y-4">
               <p className="studio-copy text-[0.9rem] leading-snug text-black/75 md:text-base md:leading-snug">
-                Fondé en 2019 à Kinshasa, EK STUDIO est un studio de
-                communication visuelle où stratégie, créativité et technologie
-                se rencontrent. Nous concevons des expériences visuelles
-                impactantes qui engagent, convainquent et valorisent
-                durablement les marques.
+                Beaux-arts à Kinshasa, technologies de l’information dans
+                l’Indiana. Graphiste et support IT, aujourd’hui basé à
+                Noblesville.
               </p>
               <p className="studio-copy text-[0.9rem] leading-snug text-black/55 md:text-base md:leading-snug">
-                Notre mission : transformer chaque projet en une identité
-                forte, visible et mémorable grâce à une approche alliant
-                innovation et vision stratégique.
+                Ma mission : des identités claires et des visuels cohérents,
+                de l’affiche à la vidéo, pour chaque client.
               </p>
             </div>
           </div>

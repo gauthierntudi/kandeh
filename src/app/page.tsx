@@ -5,12 +5,10 @@ import Values from "@/components/Values";
 import Services from "@/components/Services";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
-import SectionScroll from "@/components/SectionScroll";
 
 export default function Home() {
   return (
     <main className="relative">
-      <SectionScroll />
       <Hero />
       <Method />
       <Studio />

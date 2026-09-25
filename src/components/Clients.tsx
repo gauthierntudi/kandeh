@@ -96,8 +96,8 @@ export default function Clients() {
           Clients
         </p>
         <h2 className="clients-title mt-4 max-w-[16ch] text-left font-display text-[clamp(1.55rem,4vw,2.75rem)] font-semibold leading-[1.1] tracking-[-0.03em] uppercase text-black">
-          Ils nous font{" "}
-          <span className="text-[color:var(--accent)]">confiance</span>
+          Ils m’ont confié leurs{" "}
+          <span className="text-[color:var(--accent)]">visuels</span>
         </h2>
 
         <ul className="mt-12 grid grid-cols-3 gap-x-5 gap-y-7 sm:gap-x-8 sm:gap-y-10 md:mt-16 md:grid-cols-4 md:gap-x-10 md:gap-y-12 lg:grid-cols-5">

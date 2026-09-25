@@ -79,8 +79,8 @@ export default function Footer() {
         <div className="flex flex-1 flex-col justify-center gap-14 lg:gap-20">
           <div className="footer-brand max-w-2xl">
             <p className="max-w-[22ch] font-display text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-              Là où l’image devient une{" "}
-              <span className="text-[color:var(--accent)]">expérience</span>.
+              Du concept à la{" "}
+              <span className="text-[color:var(--accent)]">livraison</span>.
             </p>
           </div>
 
@@ -90,7 +90,9 @@ export default function Footer() {
                 Explorer
               </p>
               <ul className="space-y-2">
-                {NAV_LINKS.filter((l) => l.href !== "/contact").map((link) => (
+                {NAV_LINKS.filter(
+                  (l) => l.href !== "/contact" && l.href !== "/equipe",
+                ).map((link) => (
                   <li key={link.href}>
                     <Link
                       href={link.href}
@@ -163,15 +165,15 @@ export default function Footer() {
                 Studio
               </p>
               <p className="max-w-[18ch] text-sm leading-snug text-white/60">
-                Laboratoire créatif au cœur de Kinshasa — depuis 2019.
+                Graphiste basé à Noblesville — depuis 2016.
               </p>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-[0.65rem] tracking-[0.08em] text-white/35 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {new Date().getFullYear()} EK studio. Tous droits réservés.</span>
-          <span>Agence conseil &amp; communication</span>
+          <span>© {new Date().getFullYear()} Herman Kande. Tous droits réservés.</span>
+          <span>Designer graphique &amp; support IT</span>
         </div>
       </div>
     </footer>

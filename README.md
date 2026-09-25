@@ -1,4 +1,4 @@
-# EKSTUDIO
+# Herman Kande
 
 Site Next.js + GSAP.
 
