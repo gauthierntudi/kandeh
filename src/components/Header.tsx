@@ -182,7 +182,7 @@ export default function Header() {
         <Link
           href="/"
           className="relative shrink-0 font-display text-[1.65rem] font-semibold leading-none tracking-[-0.04em] text-current md:text-[1.9rem]"
-          aria-label="Herman Kande — accueil"
+          aria-label="Herman Kande — home"
           onClick={() => setOpen(false)}
         >
           <span ref={logoRef} className="relative inline-grid">
@@ -200,10 +200,10 @@ export default function Header() {
           className="relative flex h-11 w-11 items-center justify-center rounded-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-current"
           aria-expanded={open}
           aria-controls={panelId}
-          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-label={open ? "Close menu" : "Open menu"}
           onClick={() => setOpen((v) => !v)}
         >
-          <span className="sr-only">{open ? "Fermer" : "Menu"}</span>
+          <span className="sr-only">{open ? "Close" : "Menu"}</span>
           <span className="relative block h-3.5 w-6" aria-hidden>
             <span
               className={`absolute left-0 top-0 block h-[2px] w-full bg-current transition-transform duration-300 ${
@@ -251,7 +251,7 @@ export default function Header() {
             </p>
             <nav
               className="flex min-h-0 flex-col justify-end gap-0 overflow-y-auto md:gap-1"
-              aria-label="Navigation principale"
+              aria-label="Main navigation"
             >
               {NAV_LINKS.map((link) => (
                 <Link
@@ -309,7 +309,7 @@ export default function Header() {
 
               <div className="menu-footer-item space-y-1.5">
                 <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/45">
-                  Adresse
+                  Address
                 </p>
                 <p className="text-sm leading-snug text-white/80">
                   {CONTACT.address.map((line) => (
@@ -322,7 +322,7 @@ export default function Header() {
 
               <div className="menu-footer-item space-y-2">
                 <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/45">
-                  Suivre
+                  Follow
                 </p>
                 <ul className="flex flex-wrap gap-x-4 gap-y-1">
                   {SOCIALS.map((social) => (
@@ -343,7 +343,7 @@ export default function Header() {
 
             <div className="menu-footer-item mt-5 flex flex-col gap-1 border-t border-white/10 pt-4 text-[0.65rem] tracking-[0.08em] text-white/35 sm:flex-row sm:items-center sm:justify-between">
               <span>© {new Date().getFullYear()} Herman Kande</span>
-              <span>Designer graphique &amp; support IT</span>
+              <span>Graphic designer &amp; IT support</span>
             </div>
           </footer>
         </div>

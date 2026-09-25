@@ -30,27 +30,27 @@ const META_MAP: Record<
   beaufort: {
     year: "2024",
     tags: ["Brand", "Campaign"],
-    subtitle: "Identité & activation",
+    subtitle: "Identity & activation",
   },
   "canal-plus": {
     year: "2025",
     tags: ["Content", "Broadcast"],
-    subtitle: "Univers visuel",
+    subtitle: "Visual world",
   },
   castel: {
     year: "2024",
     tags: ["Brand", "Pack"],
-    subtitle: "Campagne produit",
+    subtitle: "Product campaign",
   },
   easytv: {
     year: "2025",
     tags: ["Digital", "UI"],
-    subtitle: "Plateforme & contenu",
+    subtitle: "Platform & content",
   },
   fanaf: {
     year: "2024",
     tags: ["Event", "Brand"],
-    subtitle: "Identité événementielle",
+    subtitle: "Event identity",
   },
   "mutzig-class": {
     year: "2025",
@@ -60,17 +60,17 @@ const META_MAP: Record<
   nkoyi: {
     year: "2024",
     tags: ["Brand", "Content"],
-    subtitle: "Direction artistique",
+    subtitle: "Art direction",
   },
   "top-tropical": {
     year: "2025",
     tags: ["Pack", "Campaign"],
-    subtitle: "Lancement produit",
+    subtitle: "Product launch",
   },
   "world-cola": {
     year: "2024",
     tags: ["Brand", "OOH"],
-    subtitle: "Campagne nationale",
+    subtitle: "National campaign",
   },
 };
 
@@ -101,8 +101,8 @@ export function getProjects(): Project[] {
 
       const meta = META_MAP[entry.name] ?? {
         year: "2025",
-        tags: ["Création"],
-        subtitle: "Projet studio",
+        tags: ["Creation"],
+        subtitle: "Studio project",
       };
 
       return {
@@ -116,7 +116,7 @@ export function getProjects(): Project[] {
       };
     })
     .filter((project) => project.images.length > 0)
-    .sort((a, b) => a.title.localeCompare(b.title, "fr"));
+    .sort((a, b) => a.title.localeCompare(b.title, "en"));
 }
 
 export function getProject(slug: string): Project | undefined {

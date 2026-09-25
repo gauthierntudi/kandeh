@@ -18,7 +18,7 @@ const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
   : "https://kandeh.vercel.app";
 const siteTitle = "Herman Kande";
 const siteDescription =
-  "Là où l’image devient une expérience. Création digitale & motion à Kinshasa.";
+  "Where the image becomes an experience. Digital creation and motion in Kinshasa.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -34,15 +34,15 @@ export const metadata: Metadata = {
   keywords: [
     "Herman Kande",
     "Kinshasa",
-    "communication visuelle",
-    "création de contenus",
-    "identité visuelle",
-    "vidéographie",
+    "visual communication",
+    "content creation",
+    "visual identity",
+    "videography",
     "motion design",
   ],
   openGraph: {
     type: "website",
-    locale: "fr_FR",
+    locale: "en_US",
     url: siteUrl,
     siteName: siteTitle,
     title: siteTitle,
@@ -69,7 +69,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="fr"
+      lang="en"
       className={`${spaceGrotesk.variable} ${syne.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col font-sans">

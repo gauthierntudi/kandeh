@@ -79,15 +79,15 @@ export default function Footer() {
         <div className="flex flex-1 flex-col justify-center gap-14 lg:gap-20">
           <div className="footer-brand max-w-2xl">
             <p className="max-w-[22ch] font-display text-[clamp(1.75rem,4vw,3rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-              Du concept à la{" "}
-              <span className="text-[color:var(--accent)]">livraison</span>.
+              From concept to{" "}
+              <span className="text-[color:var(--accent)]">delivery</span>.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:grid-cols-4 lg:gap-12">
             <div className="footer-col space-y-4">
               <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/40">
-                Explorer
+                Explore
               </p>
               <ul className="space-y-2">
                 {NAV_LINKS.filter((l) => l.href !== "/contact").map((link) => (
@@ -140,7 +140,7 @@ export default function Footer() {
 
             <div className="footer-col col-span-2 space-y-4 sm:col-span-1">
               <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/40">
-                Suivre
+                Follow
               </p>
               <ul className="flex flex-wrap gap-x-5 gap-y-2">
                 {SOCIALS.map((social) => (
@@ -163,15 +163,15 @@ export default function Footer() {
                 Studio
               </p>
               <p className="max-w-[18ch] text-sm leading-snug text-white/60">
-                Graphiste basé à Noblesville — depuis 2016.
+                Graphic designer based in Noblesville — since 2016.
               </p>
             </div>
           </div>
         </div>
 
         <div className="footer-bottom mt-14 flex flex-col gap-3 border-t border-white/10 pt-6 text-[0.65rem] tracking-[0.08em] text-white/35 sm:flex-row sm:items-center sm:justify-between">
-          <span>© {new Date().getFullYear()} Herman Kande. Tous droits réservés.</span>
-          <span>Designer graphique &amp; support IT</span>
+          <span>© {new Date().getFullYear()} Herman Kande. All rights reserved.</span>
+          <span>Graphic designer &amp; IT support</span>
         </div>
       </div>
     </footer>

@@ -20,33 +20,33 @@ const TEAM: Member[] = [
     photo: "/team/1.png",
     index: "01",
     name: "KABUNDI Espérant",
-    role: "Fondateur & Directeur Créatif",
+    role: "Founder & Creative Director",
     profile: [
-      "Créateur dans l’âme, KABUNDI Espérant évolue depuis plus de 16 ans dans l’univers de l’image, du design et du storytelling visuel. Là où certains voient des formes et des pixels, lui perçoit des émotions, des récits et des opportunités de connexion entre les marques et leur public.",
-      "Graphiste de formation, directeur artistique par passion, il développe une approche où l’esthétique ne se dissocie jamais de la stratégie. Chaque création est pensée comme un langage, chaque visuel comme un message porteur de sens.",
-      "En fondant Herman Kande en 2019 à Kinshasa, il pose une vision claire : créer un espace où la créativité rencontre l’exigence, où l’innovation sert l’impact, et où chaque projet devient une expérience singulière. Sous sa direction, le studio accompagne marques, institutions et entreprises dans la conception de supports de communication puissants, cohérents et mémorables.",
-      "Donner une identité forte aux idées, sans jamais trahir l’ADN des marques.",
+      "A creator at heart, KABUNDI Espérant has spent more than 16 years in image, design, and visual storytelling. Where others see shapes and pixels, he sees emotion, narrative, and ways for brands to connect with their audience.",
+      "Trained as a graphic designer and an art director by passion, he works so that aesthetics never split from strategy. Every piece is a language, and every visual is a message with meaning.",
+      "By founding Herman Kande in Kinshasa in 2019, he set a clear vision: a place where creativity meets rigor, where innovation serves impact, and where every project becomes a distinct experience. Under his direction, the studio helps brands, institutions, and companies build communication that is strong, consistent, and memorable.",
+      "Give ideas a strong identity, without ever betraying a brand’s DNA.",
     ],
   },
   {
     photo: "/team/2.png",
     index: "02",
     name: "NDOMBELE Emmanuel",
-    role: "Directeur Artistique",
+    role: "Art Director",
     profile: [
-      "Directeur artistique à l’œil affûté, NDOMBELE Emmanuel transforme les concepts en univers visuels forts et structurés. Son approche repose sur une parfaite maîtrise des codes graphiques, combinée à une sensibilité artistique nourrie par la culture visuelle contemporaine, le jeu vidéo et le storytelling.",
-      "Chaque projet est pour lui une immersion totale : comprendre l’essence, révéler l’invisible et traduire l’intention en expérience visuelle. Il orchestre les couleurs, les formes et les contrastes comme on compose une mélodie, avec précision et émotion.",
-      "Sa force réside dans sa capacité à capter rapidement l’âme d’un projet et à la matérialiser par une direction artistique claire, cohérente et impactante.",
+      "An art director with a sharp eye, NDOMBELE Emmanuel turns concepts into strong, structured visual worlds. His approach rests on a firm command of graphic codes, paired with an artistic sensitivity shaped by contemporary visual culture, video games, and storytelling.",
+      "Every project is a full immersion for him: understand the essence, reveal what is unseen, and turn intent into a visual experience. He orchestrates color, form, and contrast the way someone composes a melody, with precision and feeling.",
+      "His strength is how quickly he can catch a project’s soul and give it a clear, consistent, high-impact art direction.",
     ],
   },
   {
     photo: "/team/3.png",
     index: "03",
     name: "KALALA Kyria",
-    role: "Responsable Clientèle",
+    role: "Client Lead",
     profile: [
-      "Responsable Clientèle, KALALA Kyria est le point de liaison stratégique entre les clients et les équipes créatives. Licenciée et dotée d’une solide expérience en communication, relations publiques, événementiel et gestion de la relation client, elle évolue avec aisance dans des environnements exigeants.",
-      "Organisée, rigoureuse et orientée solutions, elle pilote les projets, coordonne les équipes et veille à la qualité de l’expérience client à chaque étape. Son rôle est essentiel : garantir des échanges fluides, une compréhension claire des besoins et une exécution alignée avec l’image et les valeurs du studio.",
+      "As Client Lead, KALALA Kyria is the strategic link between clients and the creative teams. A graduate with solid experience in communication, public relations, events, and client relations, she moves easily in demanding environments.",
+      "Organized, rigorous, and solution-oriented, she runs projects, coordinates teams, and watches the quality of the client experience at every step. Her role is essential: keep the conversation clear, understand the need, and deliver work aligned with the studio’s image and values.",
     ],
   },
   {
@@ -55,9 +55,9 @@ const TEAM: Member[] = [
     name: "BAMPANGIDI Clément",
     role: "Digital Manager",
     profile: [
-      "Stratège du digital et fin analyste des performances, BAMPANGIDI Clément pilote la présence numérique des marques avec méthode et efficacité. Certifié en marketing digital à l’international, il a accompagné des entreprises issues de secteurs variés, en gérant d’importants budgets publicitaires et en optimisant leur retour sur investissement.",
-      "Il conçoit le digital comme un levier de croissance mesurable, où créativité et data avancent ensemble. Son approche : diagnostiquer, structurer, activer et optimiser.",
-      "Des stratégies digitales qui soignent les marques et délivrent des résultats concrets.",
+      "A digital strategist and a close reader of performance, BAMPANGIDI Clément runs brands’ online presence with method and efficiency. Internationally certified in digital marketing, he has worked with companies across many sectors, managing large media budgets and improving their return on investment.",
+      "He treats digital as a measurable growth lever, where creativity and data move together. His approach: diagnose, structure, activate, and optimize.",
+      "Digital strategies that take care of brands and deliver concrete results.",
     ],
   },
   {
@@ -66,18 +66,18 @@ const TEAM: Member[] = [
     name: "NDALA Rabby",
     role: "Graphic Designer & Motion Design",
     profile: [
-      "Formé à l’Académie des Beaux-Arts de Kinshasa, NDALA Rabby est animé par une quête permanente d’excellence graphique. Passionné par les arts visuels, il conjugue rigueur technique, sens du détail et créativité.",
-      "Observateur, méthodique et collaboratif, il contribue à donner vie aux concepts du studio à travers des créations précises, harmonieuses et alignées avec les objectifs stratégiques des projets.",
+      "Trained at the Academy of Fine Arts in Kinshasa, NDALA Rabby is driven by a constant search for graphic excellence. Passionate about the visual arts, he combines technical rigor, attention to detail, and creativity.",
+      "Observant, methodical, and collaborative, he helps bring the studio’s concepts to life through precise, harmonious work aligned with each project’s strategic goals.",
     ],
   },
   {
     photo: "/team/6.png",
     index: "06",
     name: "ILUNGA Inès",
-    role: "Graphiste & Créative Digitale",
+    role: "Graphic Designer & Digital Creative",
     profile: [
-      "Graphiste et créative passionnée par l’univers des marques, ILUNGA Inès imagine des identités visuelles audacieuses, expressives et résolument engageantes. Son terrain de jeu : le digital, le social media et la création d’univers graphiques qui captivent dès le premier regard.",
-      "Si elle maîtrise le minimalisme, son cœur penche clairement pour le maximalisme assumé : des couleurs qui claquent, des compositions dynamiques et des visuels pensés pour attirer, retenir et marquer. Chaque création est conçue comme un outil de narration visuelle au service de la marque.",
+      "A graphic designer passionate about brands, ILUNGA Inès imagines visual identities that are bold, expressive, and genuinely engaging. Her field is digital, social media, and graphic worlds that catch you at first glance.",
+      "She can work in minimalism, but her heart leans toward committed maximalism: colors that hit, dynamic compositions, and visuals made to attract, hold, and stay. Every piece is a tool of visual storytelling in service of the brand.",
     ],
   },
   {
@@ -86,42 +86,42 @@ const TEAM: Member[] = [
     name: "ILDIO MAKAYA Destin",
     role: "Motion Designer",
     profile: [
-      "Créatif spécialisé en réalisation audiovisuelle, motion design et design graphique, ILDIO MAKAYA Destin formé en communication visuelle à l’Académie des Beaux-Arts de Kinshasa (Graduat & Licence), il dispose d’une solide maîtrise des outils et des langages contemporains de l’image animée. Son expertise couvre la réalisation de vidéos, le motion design, la post-production et la création de contenus destinés aux supports digitaux et institutionnels.",
+      "A creative specialized in film, motion design, and graphic design, ILDIO MAKAYA Destin trained in visual communication at the Academy of Fine Arts in Kinshasa. He has a solid command of the tools and contemporary languages of the moving image. His work covers video direction, motion design, post-production, and content for digital and institutional channels.",
     ],
   },
   {
     photo: "/team/9.png",
     index: "08",
     name: "MATELA Sam",
-    role: "Vidéaste Junior",
+    role: "Junior Videographer",
     profile: [
-      "Vidéaste junior animé par une passion sincère pour l’image en mouvement. Curieux et créatif, il adopte une approche sensible et dynamique pour capturer les instants. En apprentissage continu, il développe progressivement son propre style cinématographique au fil des projets.",
+      "A junior videographer driven by a real passion for the moving image. Curious and creative, he works with a sensitive, dynamic approach to capture the moment. Still learning, he is steadily building his own cinematic style from project to project.",
     ],
   },
   {
     photo: "/team/10.png",
     index: "09",
     name: "MULENDA Tommy-Jordan",
-    role: "Photographe",
+    role: "Photographer",
     profile: [
-      "À travers son objectif, MULENDA Tommy-Jordan capte l’essence de l’instant. Portraits, événements, mode ou documentaire : chaque image est une exploration de l’humain, de la lumière et de l’émotion.",
-      "Sa photographie se distingue par une approche à la fois artistique et authentique, où chaque détail raconte une histoire. Plus qu’un métier, la photo est pour lui un moyen d’expression et de connexion.",
+      "Through his lens, MULENDA Tommy-Jordan captures the essence of the moment. Portraits, events, fashion, or documentary: every image is an exploration of people, light, and emotion.",
+      "His photography is both artistic and authentic, and every detail tells a story. More than a job, photography is his way of expressing himself and connecting.",
     ],
   },
   {
     photo: "/team/11.png",
     index: "10",
     name: "MPOLO Matthieu",
-    role: "Photographe Junior",
+    role: "Junior Photographer",
     profile: [
-      "Il explore la beauté du monde à travers son objectif avec un regard frais et curieux. Passionné par la lumière et la composition, il s’attache à capter l’authenticité des moments. À l’écoute et en constante quête de perfectionnement, il enrichit son univers visuel à travers chaque projet.",
+      "He explores the beauty of the world through his lens with a fresh, curious eye. Passionate about light and composition, he works to capture the authenticity of a moment. Attentive and always refining his craft, he grows his visual world with every project.",
     ],
   },
 ];
 
 const DECODE_CHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#%&*";
 const DECODE_PAIRS = [
-  { line1: "NOTRE", line2: "ÉQUIPE" },
+  { line1: "OUR", line2: "TEAM" },
   { line1: "BEST", line2: "CREW" },
 ] as const;
 const DECODE_INTERVAL_MS = 5000;
@@ -491,7 +491,7 @@ export default function Team() {
     <main ref={pageRef} className="relative bg-black text-white">
       <section
         className="team-visual relative flex min-h-dvh flex-col overflow-hidden"
-        aria-label="Notre équipe — Best crew"
+        aria-label="Our team — Best crew"
       >
         <div className="team-bg absolute inset-0">
           <Image
@@ -507,7 +507,7 @@ export default function Team() {
         <div className="pointer-events-none absolute inset-0 z-20 flex items-center justify-center px-5 md:pointer-events-auto md:static md:mx-auto md:block md:w-full md:max-w-7xl md:items-stretch md:justify-start md:px-10 md:pt-32">
           <div className="-translate-y-20 md:translate-y-0">
             <h1 className="team-heading max-w-[9ch] text-center font-display text-[clamp(2.35rem,12vw,3.25rem)] font-semibold leading-[1.02] tracking-[-0.03em] uppercase text-white md:max-w-[10ch] md:text-left md:text-[clamp(1.35rem,3.2vw,2.25rem)] md:leading-[1.05]">
-              <span className="sr-only">Notre équipe — Best crew</span>
+              <span className="sr-only">Our team — Best crew</span>
               <span aria-hidden="true" className="block">
                 {line1}
               </span>
@@ -538,7 +538,7 @@ export default function Team() {
           href="#roster"
           onClick={scrollToRoster}
           className="team-scroll absolute bottom-[max(1rem,env(safe-area-inset-bottom))] left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-1.5 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white md:bottom-8 md:gap-2"
-          aria-label="Défiler vers l’équipe"
+          aria-label="Scroll to the team"
         >
           <span className="text-[0.6rem] font-medium tracking-[0.28em] uppercase md:text-[0.65rem]">
             Scroll
@@ -555,7 +555,7 @@ export default function Team() {
           href="#roster"
           onClick={scrollToRoster}
           className="team-cred absolute right-5 bottom-10 z-20 hidden flex-col items-center gap-3 text-white/40 transition-colors hover:text-white md:right-10 md:flex"
-          aria-label="Voir l’équipe"
+          aria-label="See the team"
         >
           <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase [writing-mode:vertical-rl]">
             Credentials 2025
@@ -585,17 +585,17 @@ export default function Team() {
         <div className="relative z-10 mx-auto w-full max-w-7xl px-6 py-16 md:px-10 md:py-24">
           <div className="max-w-xl">
             <p className="team-label text-[0.7rem] font-medium tracking-[0.22em] uppercase text-white/45">
-              Équipe
+              Team
             </p>
             <p className="team-lead mt-4 max-w-lg font-display text-[clamp(1.15rem,2.8vw,1.65rem)] font-semibold leading-[1.2] tracking-[-0.02em] uppercase text-white">
-              Des talents confirmés
+              Proven talent
               <br />
-              et émergents,
+              and emerging voices,
               <br />
-              unis par une vision commune :
+              united by one vision:
               <br />
               <span className="text-[#00f306]">
-                Créer de l’impact par l’image.
+                Create impact through the image.
               </span>
             </p>
           </div>
@@ -605,7 +605,7 @@ export default function Team() {
               const hasProfile = Boolean(member.name && member.profile?.length);
               const label = member.name
                 ? `${member.name} — ${member.role ?? ""}`
-                : `Membre de l’équipe ${member.index}`;
+                : `Team member ${member.index}`;
 
               const inner = (
                 <>
@@ -631,7 +631,7 @@ export default function Team() {
                         ) : null}
                         {hasProfile ? (
                           <p className="mt-2 text-[0.65rem] tracking-[0.18em] uppercase text-[color:var(--accent)] opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-visible:opacity-100">
-                            Profil
+                            Profile
                           </p>
                         ) : null}
                       </>
@@ -688,7 +688,7 @@ export default function Team() {
             <button
               type="button"
               className="relative z-20 flex w-full shrink-0 touch-none flex-col items-center pt-3 pb-3 md:hidden"
-              aria-label="Fermer le profil"
+              aria-label="Close profile"
               onPointerDown={onHandlePointerDown}
               onPointerMove={onHandlePointerMove}
               onPointerUp={onHandlePointerUp}
@@ -701,7 +701,7 @@ export default function Team() {
               type="button"
               onClick={closeProfile}
               className="absolute top-3 right-3 z-30 flex h-10 w-10 items-center justify-center rounded-full border border-white/35 text-white/70 transition-colors hover:border-white hover:text-white md:top-4 md:right-4"
-              aria-label="Fermer"
+              aria-label="Close"
             >
               <X className="h-4 w-4" strokeWidth={1.75} />
             </button>

@@ -228,7 +228,7 @@ export default function ProjectDetail({
               href="/projets"
               className="inline-flex items-center gap-2 text-[0.7rem] font-medium tracking-[0.2em] uppercase text-white/45 transition-colors hover:text-white"
             >
-              ← Projets
+              ← Projects
             </Link>
 
             <div className="mt-5 flex flex-col gap-5 md:mt-8 md:flex-row md:items-end md:justify-between">
@@ -336,7 +336,7 @@ export default function ProjectDetail({
           className="fixed inset-0 z-[100] flex flex-col bg-black/95"
           role="dialog"
           aria-modal="true"
-          aria-label={`Visuel ${lightbox + 1} sur ${shots.length}`}
+          aria-label={`Image ${lightbox + 1} of ${shots.length}`}
         >
           <div className="flex items-center justify-between gap-3 px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-3 md:px-6">
             <p className="font-mono text-[0.7rem] tracking-[0.14em] text-white/45">
@@ -350,7 +350,7 @@ export default function ProjectDetail({
               type="button"
               onClick={closeLightbox}
               className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white transition-colors hover:bg-white/10"
-              aria-label="Fermer"
+              aria-label="Close"
             >
               <X className="h-5 w-5" strokeWidth={1.75} />
             </button>
@@ -368,7 +368,7 @@ export default function ProjectDetail({
                   showPrev();
                 }}
                 className="absolute top-1/2 left-2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/40 text-white backdrop-blur-sm transition-colors hover:bg-white/10 md:left-4"
-                aria-label="Image précédente"
+                aria-label="Previous image"
               >
                 <ChevronLeft className="h-6 w-6" strokeWidth={1.75} />
               </button>
@@ -398,7 +398,7 @@ export default function ProjectDetail({
                   showNext();
                 }}
                 className="absolute top-1/2 right-2 z-10 flex h-12 w-12 -translate-y-1/2 items-center justify-center rounded-full border border-white/15 bg-black/40 text-white backdrop-blur-sm transition-colors hover:bg-white/10 md:right-4"
-                aria-label="Image suivante"
+                aria-label="Next image"
               >
                 <ChevronRight className="h-6 w-6" strokeWidth={1.75} />
               </button>

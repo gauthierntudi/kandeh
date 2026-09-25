@@ -3,9 +3,9 @@ import ProjectsPage from "@/components/ProjectsPage";
 import { getProjects } from "@/lib/projects";
 
 export const metadata: Metadata = {
-  title: "Projets — Herman Kande",
+  title: "Projects — Herman Kande",
   description:
-    "Sélection créative Herman Kande — campagnes, identités et contenus pour les marques.",
+    "Herman Kande’s creative selection — campaigns, identities, and content for brands.",
 };
 
 export default function ProjetsRoute() {

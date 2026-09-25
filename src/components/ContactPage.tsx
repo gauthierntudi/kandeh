@@ -94,13 +94,13 @@ export default function ContactPage() {
             Contact
           </p>
           <h1 className="contact-title mt-4 max-w-[14ch] font-display text-[clamp(2.25rem,7vw,4.5rem)] font-semibold leading-[1.02] tracking-[-0.03em] uppercase text-white">
-            Parlons de
+            Let&apos;s talk
             <br />
-            votre{" "}
-            <span className="text-black">projet</span>
+            about your{" "}
+            <span className="text-black">project</span>
           </h1>
           <p className="contact-lead mt-6 max-w-lg text-base leading-snug text-white/65 md:mt-8 md:text-lg">
-            {CONTACT.tagline} Écrivez-moi ou passez au studio — Kinshasa-Gombe.
+            {CONTACT.tagline} Email me, or stop by the studio — Kinshasa-Gombe.
           </p>
 
           <div className="mt-12 grid grid-cols-1 gap-10 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-14">
@@ -123,7 +123,7 @@ export default function ContactPage() {
 
             <div className="contact-block space-y-3">
               <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/45">
-                Téléphone
+                Phone
               </p>
               <div className="space-y-2">
                 {CONTACT.phones.map((phone) => (
@@ -154,7 +154,7 @@ export default function ContactPage() {
 
           <div className="contact-block mt-12 space-y-3 lg:mt-16">
             <p className="text-[0.65rem] font-medium tracking-[0.22em] uppercase text-white/45">
-              Suivre
+              Follow
             </p>
             <ul className="flex flex-wrap gap-x-6 gap-y-2">
               {SOCIALS.map((social) => (
@@ -182,7 +182,7 @@ export default function ContactPage() {
                 className="absolute top-1.5 left-1.5 h-full w-full border border-white bg-transparent transition-transform duration-300 ease-out group-hover:translate-x-0.5 group-hover:translate-y-0.5"
               />
               <span className="relative z-10 flex items-center bg-black px-6 py-3.5 font-display text-sm font-semibold tracking-[0.16em] uppercase text-white transition-[transform,background-color,color] duration-300 ease-out group-hover:-translate-y-0.5 group-hover:bg-white group-hover:text-black md:px-7 md:text-[0.8125rem]">
-                Écrire au studio
+                Email the studio
               </span>
               <span
                 aria-hidden
@@ -194,12 +194,12 @@ export default function ContactPage() {
           </div>
 
           <p className="contact-block mt-10 text-sm text-white/40">
-            Ou{" "}
+            Or{" "}
             <Link
               href="/equipe"
               className="text-white/70 underline-offset-4 transition-colors hover:text-[color:var(--accent)] hover:underline"
             >
-              découvrez l’équipe
+              meet the team
             </Link>
             .
           </p>

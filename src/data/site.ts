@@ -1,8 +1,8 @@
 export const NAV_LINKS = [
-  { href: "/", label: "Accueil", index: "01" },
-  { href: "/#methode", label: "Méthode", index: "02" },
+  { href: "/", label: "Home", index: "01" },
+  { href: "/#methode", label: "Method", index: "02" },
   { href: "/#clients", label: "Clients", index: "03" },
-  { href: "/projets", label: "Projets", index: "04" },
+  { href: "/projets", label: "Projects", index: "04" },
   { href: "/contact", label: "Contact", index: "05" },
 ] as const;
 
@@ -24,6 +24,6 @@ export const SOCIALS = [
 export const CONTACT = {
   emails: ["hermankande21@gmail.com"],
   phones: [{ label: "+1 217 377 5814", href: "tel:+12173775814" }],
-  address: ["Noblesville, IN", "46060", "États-Unis"],
-  tagline: "Du concept à la livraison.",
+  address: ["Noblesville, IN", "46060", "United States"],
+  tagline: "From concept to delivery.",
 } as const;

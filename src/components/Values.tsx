@@ -8,17 +8,17 @@ const VALUES = [
   {
     icon: "/img/icons/ICO_EK-04.png",
     title: "Branding",
-    body: "L’identité visuelle et les infographies rendent une marque lisible. Je construis des systèmes cohérents, de l’affiche au support digital, pour que chaque client soit reconnu.",
+    body: "Visual identity and infographics make a brand readable. I build consistent systems, from poster to digital, so every client is recognized.",
   },
   {
     icon: "/img/icons/ICO_EK-03.png",
-    title: "Vidéo",
-    body: "Le montage sert le message. Je réalise des vidéos promotionnelles et pédagogiques, claires et tenues, pour des campus, des campagnes et des communautés.",
+    title: "Video",
+    body: "Editing serves the message. I make promotional and educational videos that stay clear and consistent, for campuses, campaigns, and communities.",
   },
   {
     icon: "/img/icons/ICO_EK-01.png",
     title: "Digital",
-    body: "Adobe Creative Suite et la gestion de contenus numériques tiennent l’ensemble. Je mets à jour les visuels et l’identité en ligne pour qu’ils restent justes et cohérents.",
+    body: "Adobe Creative Suite and digital content management hold it together. I update visuals and online identity so they stay accurate and consistent.",
   },
 ] as const;
 
@@ -140,7 +140,7 @@ export default function Values() {
 
       <div className="values-cred absolute bottom-10 right-6 z-20 hidden flex-col items-center gap-3 md:right-10 md:flex">
         <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase text-white/40 [writing-mode:vertical-rl]">
-          Savoir-faire
+          Craft
         </span>
         <span aria-hidden className="text-white/35">
           ↓
@@ -149,7 +149,7 @@ export default function Values() {
 
       <div className="relative z-10 mx-auto flex h-full w-full max-w-7xl flex-col justify-center px-0 py-20 md:px-10 md:py-16">
         <h2 className="values-title max-w-[18ch] px-6 text-left font-display text-[clamp(1.55rem,4vw,2.75rem)] font-semibold leading-[1.1] tracking-[-0.03em] uppercase text-white md:px-0">
-          Les compétences qui me définissent
+          The skills that define me
         </h2>
 
         <div
@@ -183,7 +183,7 @@ export default function Values() {
         <div
           className="values-dots mt-8 flex items-center justify-center gap-2 md:hidden"
           role="tablist"
-          aria-label="Compétences"
+          aria-label="Skills"
         >
           {VALUES.map((value, i) => (
             <button

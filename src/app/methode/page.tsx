@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import MethodPage from "@/components/MethodPage";
 
 export const metadata: Metadata = {
-  title: "Méthode — Herman Kande",
+  title: "Method — Herman Kande",
   description:
-    "Méthodologie de travail Herman Kande — immersion, conception, production et déploiement.",
+    "Herman Kande’s working method — immersion, concept, production, and rollout.",
 };
 
 export default function MethodeRoute() {

@@ -58,7 +58,7 @@ export default function ProjectsPage({ projects }: { projects: Project[] }) {
         />
       ) : (
         <div className="flex h-full items-center justify-center text-sm text-white/50">
-          Aucun projet pour ce filtre.
+          No projects for this filter.
         </div>
       )}
 
@@ -73,7 +73,7 @@ export default function ProjectsPage({ projects }: { projects: Project[] }) {
                 ? "border-white bg-white text-black"
                 : "border-white/20 bg-black/50 text-white/70 backdrop-blur-md hover:border-white/40"
             }`}
-            title="Vue courbe 3D"
+            title="3D curve view"
           >
             <span aria-hidden className="grid grid-cols-2 gap-0.5">
               <i className="block h-1.5 w-1.5 rounded-[1px] bg-current" />
@@ -81,7 +81,7 @@ export default function ProjectsPage({ projects }: { projects: Project[] }) {
               <i className="block h-1.5 w-1.5 rounded-[1px] bg-current opacity-70" />
               <i className="block h-1.5 w-1.5 rounded-[1px] bg-current" />
             </span>
-            <span className="sr-only">Vue courbe 3D</span>
+            <span className="sr-only">3D curve view</span>
           </button>
           <button
             type="button"
@@ -92,14 +92,14 @@ export default function ProjectsPage({ projects }: { projects: Project[] }) {
                 ? "border-white bg-white text-black"
                 : "border-white/20 bg-black/50 text-white/70 backdrop-blur-md hover:border-white/40"
             }`}
-            title="Vue plate"
+            title="Flat view"
           >
             <span aria-hidden className="flex flex-col gap-0.5">
               <i className="block h-0.5 w-3.5 bg-current" />
               <i className="block h-0.5 w-3.5 bg-current" />
               <i className="block h-0.5 w-3.5 bg-current" />
             </span>
-            <span className="sr-only">Vue plate</span>
+            <span className="sr-only">Flat view</span>
           </button>
         </div>
 

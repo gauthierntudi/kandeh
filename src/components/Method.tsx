@@ -176,24 +176,22 @@ export default function Method() {
         <div className="flex w-full flex-col items-start gap-10 lg:flex-row lg:items-end lg:justify-between lg:gap-16">
           <div className="flex max-w-xl flex-col items-start">
             <p className="method-label mb-5 text-[0.7rem] font-medium tracking-[0.22em] uppercase text-white/55">
-              Approche
+              Approach
             </p>
 
             <h2 className="method-title font-display text-[clamp(2rem,4.5vw,3.75rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-              Des visuels qui renforcent{" "}
-              <span className="text-[color:var(--accent)]">l’identité</span>
+              Visuals that strengthen{" "}
+              <span className="text-[color:var(--accent)]">identity</span>
             </h2>
 
             <div className="mt-8 max-w-lg space-y-5">
               <p className="method-copy text-base leading-snug text-white/80 md:text-lg md:leading-snug">
-                Il mène des équipes et plusieurs projets de design, du concept à
-                la livraison, pour des clients académiques, corporate et
-                communautaires.
+                I lead teams and multiple design projects, from concept to
+                delivery, for academic, corporate, and community clients.
               </p>
               <p className="method-copy text-base leading-snug text-white/60 md:text-lg md:leading-snug">
-                Adobe Creative Suite, montage vidéo et production multimédia.
-                Des visuels qui servent la communication et renforcent l’identité
-                de marque.
+                Adobe Creative Suite, video editing, and multimedia production.
+                Visuals that serve communication and strengthen brand identity.
               </p>
             </div>
           </div>
@@ -204,7 +202,7 @@ export default function Method() {
               className="group relative inline-flex w-full min-w-0 items-stretch focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
             >
               <span className="relative z-10 flex min-w-0 flex-1 items-center bg-[color:var(--accent)] px-3 py-3 font-display text-[0.65rem] font-semibold tracking-[0.1em] uppercase text-black transition-[transform,background-color,color] duration-300 ease-out group-hover:-translate-y-0.5 group-hover:bg-white sm:px-6 sm:py-3.5 sm:text-sm sm:tracking-[0.14em] md:px-7">
-                Mes projets
+                My projects
               </span>
               <span
                 aria-hidden
@@ -225,7 +223,7 @@ export default function Method() {
               className="group relative inline-flex w-full min-w-0 items-stretch focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
             >
               <span className="relative z-10 flex min-w-0 flex-1 items-center border border-white/30 bg-transparent px-3 py-3 font-display text-[0.65rem] font-semibold tracking-[0.1em] uppercase text-white transition-[transform,background-color,color,border-color] duration-300 ease-out group-hover:-translate-y-0.5 group-hover:border-white group-hover:bg-white group-hover:text-black sm:px-6 sm:py-3.5 sm:text-sm sm:tracking-[0.14em] md:px-7">
-                M'écrire
+                Email me
               </span>
               <span
                 aria-hidden

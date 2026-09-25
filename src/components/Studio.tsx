@@ -125,7 +125,7 @@ export default function Studio() {
         {/* Credentials — desktop only */}
         <div className="studio-cred absolute bottom-10 left-6 z-20 hidden flex-col items-center gap-3 md:left-10 md:flex">
           <span className="origin-center -rotate-180 text-[0.65rem] font-medium tracking-[0.28em] uppercase text-black/45 [writing-mode:vertical-rl]">
-            Depuis 2016
+            Since 2016
           </span>
           <span aria-hidden className="text-black/40">
             ↓
@@ -136,23 +136,22 @@ export default function Studio() {
         <div className="relative z-10 flex flex-[1.05] flex-col justify-end px-6 pb-8 pt-2 md:absolute md:inset-y-0 md:left-0 md:flex md:w-[48%] md:justify-center md:px-10 md:pb-0 md:pt-0 lg:w-[45%] lg:pl-20">
           <div className="flex w-full max-w-md flex-col items-start md:max-w-none">
             <p className="studio-cred mb-3 text-[0.65rem] font-medium tracking-[0.22em] uppercase text-black/40 md:hidden">
-              Depuis 2016
+              Since 2016
             </p>
 
             <h2 className="studio-title max-w-[16ch] font-display text-[clamp(1.45rem,6.2vw,2.85rem)] font-semibold leading-[1.08] tracking-[-0.03em] uppercase text-black md:max-w-[14ch]">
-              Un parcours créatif de Kinshasa à{" "}
+              A creative path from Kinshasa to{" "}
               <span className="text-[color:var(--accent)]">Noblesville</span>
             </h2>
 
             <div className="mt-4 space-y-3 md:mt-8 md:space-y-4">
               <p className="studio-copy text-[0.9rem] leading-snug text-black/75 md:text-base md:leading-snug">
-                Beaux-arts à Kinshasa, technologies de l’information dans
-                l’Indiana. Graphiste et support IT, aujourd’hui basé à
-                Noblesville.
+                Fine arts in Kinshasa, information technology in Indiana.
+                Graphic designer and IT support, now based in Noblesville.
               </p>
               <p className="studio-copy text-[0.9rem] leading-snug text-black/55 md:text-base md:leading-snug">
-                Ma mission : des identités claires et des visuels cohérents,
-                de l’affiche à la vidéo, pour chaque client.
+                My mission: clear identities and consistent visuals, from
+                poster to video, for every client.
               </p>
             </div>
           </div>

@@ -7,48 +7,48 @@ import Footer from "@/components/Footer";
 
 const STEPS_A = [
   {
-    title: "1. Immersion & analyse",
-    lead: "Tout commence par l’écoute et la compréhension. Je plonge au cœur de la marque, de son univers et de ses enjeux :",
+    title: "1. Immersion & analysis",
+    lead: "It starts with listening and understanding. I get to the heart of the brand, its world, and its challenges:",
     bullets: [
-      "Analyse du marché, de la concurrence et des tendances",
-      "Compréhension des objectifs, des cibles et des contraintes",
-      "Définition d’une stratégie créative claire et pertinente",
+      "Analysis of the market, the competition, and the trends",
+      "Understanding of the goals, the audiences, and the constraints",
+      "A clear, relevant creative strategy",
     ],
-    closing: "Cette phase pose les fondations solides de chaque projet.",
+    closing: "This phase lays a solid foundation for every project.",
   },
   {
-    title: "2. Conception créative",
-    lead: "Les idées prennent forme. À travers un processus collaboratif et itératif, je construis l’univers du projet :",
+    title: "2. Creative concept",
+    lead: "Ideas take shape. Through a collaborative, iterative process, I build the world of the project:",
     bullets: [
-      "Recherche d’inspirations et moodboards",
-      "Développement des concepts graphiques et narratifs",
-      "Direction artistique : typographies, couleurs, composition, ton visuel",
+      "Inspiration research and moodboards",
+      "Development of graphic and narrative concepts",
+      "Art direction: type, color, composition, visual tone",
     ],
     closing:
-      "Chaque choix créatif est pensé pour servir le message et renforcer l’impact.",
+      "Every creative choice is made to serve the message and strengthen the impact.",
   },
 ] as const;
 
 const STEPS_B = [
   {
     title: "3. Production & design",
-    lead: "La vision devient réalité.",
-    body: "Je donne vie aux concepts à travers des productions soignées :",
+    lead: "The vision becomes real.",
+    body: "I bring the concepts to life through careful production:",
     bullets: [
-      "Branding, identité visuelle, motion design, webdesign, contenus digitaux",
-      "Tests, ajustements et optimisations",
+      "Branding, visual identity, motion design, web design, digital content",
+      "Tests, adjustments, and refinements",
     ],
     closing:
-      "Validation finale et livraison selon les standards adaptés aux supports de diffusion.",
+      "Final approval and delivery, to the standards of each channel.",
   },
   {
-    title: "4. Déploiement & accompagnement",
-    lead: "Créer, c’est bien. Diffuser efficacement, c’est mieux.",
-    body: "J'accompagne mes clients dans la mise en œuvre et l’exploitation des créations :",
+    title: "4. Rollout & support",
+    lead: "Making the work is good. Getting it seen is better.",
+    body: "I support my clients as the work goes live and gets used:",
     bullets: [
-      "Déploiement print, digital et réseaux sociaux",
-      "Suivi des performances et ajustements",
-      "Conseils et accompagnement pour maximiser l’impact des supports livrés",
+      "Print, digital, and social rollout",
+      "Performance tracking and adjustments",
+      "Advice and support to get the most from the delivered work",
     ],
   },
 ] as const;
@@ -299,7 +299,7 @@ export default function MethodPage() {
           <div className="method-visual relative aspect-[913/1335] h-[min(78dvh,720px)] w-auto max-w-full">
             <Image
               src="/img/method.png"
-              alt="Herman Kande — méthodologie"
+              alt="Herman Kande — method"
               fill
               priority
               className="object-contain object-bottom"
@@ -311,9 +311,9 @@ export default function MethodPage() {
         <div className="relative z-10 mx-auto flex min-h-svh w-full max-w-7xl flex-col px-6 pt-28 pb-0 md:min-h-dvh md:grid md:grid-cols-12 md:items-center md:px-10 md:py-24">
           <div className="md:col-span-7 lg:col-span-6">
             <h1 className="method-page-title font-display text-[clamp(1.85rem,5vw,3.25rem)] font-semibold leading-[1.05] tracking-[-0.03em] uppercase text-black">
-              Méthodologie
+              Working
               <br />
-              de travail
+              method
             </h1>
 
             <div className="mt-8 space-y-7 md:mt-12 md:space-y-8">
@@ -340,7 +340,7 @@ export default function MethodPage() {
             <div className="method-visual relative aspect-[913/1335] h-[min(48svh,400px)] w-auto max-w-[85%]">
               <Image
                 src="/img/method.png"
-                alt="Herman Kande — méthodologie"
+                alt="Herman Kande — method"
                 fill
                 priority
                 className="object-contain object-bottom"

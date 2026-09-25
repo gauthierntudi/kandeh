@@ -14,10 +14,10 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const project = getProject(slug);
-  if (!project) return { title: "Projet — Herman Kande" };
+  if (!project) return { title: "Project — Herman Kande" };
   return {
     title: `${project.title} — Herman Kande`,
-    description: `Projet ${project.title} — Herman Kande Kinshasa.`,
+    description: `Project ${project.title} — Herman Kande, Kinshasa.`,
   };
 }
 

@@ -4,7 +4,7 @@ import ContactPage from "@/components/ContactPage";
 export const metadata: Metadata = {
   title: "Contact — Herman Kande",
   description:
-    "Contactez Herman Kande à Kinshasa — emails, téléphone et adresse du studio.",
+    "Contact Herman Kande — email, phone, and studio address.",
 };
 
 export default function ContactRoute() {

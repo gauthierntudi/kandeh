@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Image from "next/image";
 import { gsap, useGSAP } from "@/lib/gsap";
 
-const BEATS = ["Identité.", "Vidéo.", "Adobe."];
+const BEATS = ["Identity.", "Video.", "Adobe."];
 
 const SLIDES = [
   {
@@ -181,14 +181,14 @@ export default function Hero() {
       <div className="relative z-10 mx-auto grid h-full w-full max-w-7xl grid-cols-1 items-end px-6 pt-24 md:grid-cols-12 md:items-center md:gap-x-8 md:px-10 md:pt-0 lg:gap-x-12">
         <div className="relative z-10 flex w-full flex-col items-start gap-7 pb-20 md:col-span-5 md:gap-9 md:pb-0 lg:col-span-5">
           <h1 className="w-full max-w-[16ch] font-display text-[clamp(1.85rem,4.2vw,3.5rem)] font-semibold leading-[1.05] tracking-[-0.03em] text-white">
-            <span className="hero-title-line block">Designer</span>
-            <span className="hero-title-line block">graphique,</span>
-            <span className="hero-title-line block text-black">spécialiste</span>
+            <span className="hero-title-line block">Graphic</span>
+            <span className="hero-title-line block">designer,</span>
+            <span className="hero-title-line block text-black">specialist</span>
           </h1>
 
           <div className="w-full max-w-sm space-y-4">
             <p className="hero-lead text-base leading-relaxed text-white/90 md:text-lg">
-              Du concept à la livraison, avec précision.
+              From concept to delivery, with precision.
             </p>
             <p className="flex flex-wrap gap-x-3 gap-y-1 font-display text-lg font-medium tracking-tight text-white md:text-xl">
               {BEATS.map((beat) => (
@@ -205,7 +205,7 @@ export default function Hero() {
               className="hero-cta-btn group relative inline-flex items-stretch focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
             >
               <span className="relative z-10 flex items-center bg-black px-6 py-3.5 font-display text-sm font-semibold tracking-[0.16em] uppercase text-white transition-[transform,background-color,color] duration-300 ease-out group-hover:-translate-y-0.5 group-hover:bg-white group-hover:text-black md:px-7 md:text-[0.8125rem]">
-                Découvrir
+                Discover
               </span>
               <span
                 aria-hidden
@@ -254,7 +254,7 @@ export default function Hero() {
       <a
         href="#methode"
         className="hero-scroll absolute bottom-5 left-1/2 z-20 flex -translate-x-1/2 flex-col items-center gap-2 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white md:bottom-8"
-        aria-label="Défiler vers la section suivante"
+        aria-label="Scroll to the next section"
       >
         <span className="text-[0.65rem] font-medium tracking-[0.28em] uppercase">
           Scroll

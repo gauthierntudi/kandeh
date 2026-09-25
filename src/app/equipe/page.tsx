@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Team from "@/components/Team";
 
 export const metadata: Metadata = {
-  title: "Équipe — Herman Kande",
+  title: "Team — Herman Kande",
   description:
-    "Best crew — les talents Herman Kande à Kinshasa. Stratégie, création et production.",
+    "Best crew — Herman Kande’s talent in Kinshasa. Strategy, creation, and production.",
 };
 
 export default function EquipePage() {
