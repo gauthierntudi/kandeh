@@ -13,7 +13,9 @@ const syne = Syne({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://ekstudio-cd.com";
+const siteUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : "https://kandeh.vercel.app";
 const siteTitle = "Herman Kande";
 const siteDescription =
   "Là où l’image devient une expérience. Création digitale & motion à Kinshasa.";
