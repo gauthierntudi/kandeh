@@ -8,7 +8,7 @@ export const contentType = "image/png";
 
 export default async function OpenGraphImage() {
   const iconData = await readFile(
-    join(process.cwd(), "public/img/icon.png"),
+    join(process.cwd(), "public/img/icon-new.png"),
   );
   const iconSrc = `data:image/png;base64,${iconData.toString("base64")}`;
 
@@ -24,7 +24,7 @@ export default async function OpenGraphImage() {
           backgroundColor: "#ffffff",
         }}
       >
-        <img src={iconSrc} width={420} height={420} alt="" />
+        <img src={iconSrc} width={570} height={580} alt="" />
       </div>
     ),
     { ...size },
