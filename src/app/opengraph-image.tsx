@@ -21,7 +21,7 @@ export default async function OpenGraphImage() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          backgroundColor: "#000000",
+          backgroundColor: "#ffffff",
         }}
       >
         <img src={iconSrc} width={420} height={420} alt="" />
